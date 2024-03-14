@@ -2,7 +2,7 @@
  
 Entity::Entity()
 {
-    position = { 0, 0 };
+    position = { 0.0f, 0.0f };
 }
 
 Entity::~Entity()

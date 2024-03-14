@@ -3,18 +3,23 @@
 
 Log::Log() : Entity()
 {
-	image = LoadTexture("assets/log.png");
+    diego = LoadTexture("../assets/log.png");
     position.x = 100;
     position.y = 100;
+
+    if(diego.id == 0)
+    {
+        std::cout << "Error loading log texture" << std::endl;
+    }
     
 }
 
 Log::~Log()
 {
-    UnloadTexture(image);
+    UnloadTexture(diego);
 }
 
-void Log::Draw()
+void Log::Draw(float deltaTime)
 {
-    DrawTexture(image, position.x, position.y, WHITE);
+    DrawTexture(diego, position.x, position.y, WHITE);
 }

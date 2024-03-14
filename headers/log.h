@@ -9,11 +9,11 @@ public:
 	Log();
 	virtual ~Log();
 
-	void Draw();
+	void Draw(float deltaTime);
 	void Rotate();
 
 private:
-	Texture2D image;
+	Texture2D diego;
 	
 };
 
