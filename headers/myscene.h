@@ -1,12 +1,11 @@
-// myscene.h
-
 #ifndef MYSCENE_H
 #define MYSCENE_H
 
 #include "scene.h"
+#include "config.h"
 #include "knife.h"
 #include "log.h"
-#include "config.h"
+
 
 class Myscene: public Scene
 {

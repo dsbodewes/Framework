@@ -13,7 +13,7 @@ public:
 	void ShootForward();
 
 private:
-	// Texture2D image;
+	Texture2D image;
 	
 };
 

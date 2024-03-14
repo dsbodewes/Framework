@@ -1,53 +1,54 @@
-## Logboek/Urenverantwoording - Diëgo Bodewes - Week 7
+## Logboek/Urenverantwoording - Diëgo Bodewes - Week 
 
 **Maandag** 
 <br>
-1e blok: Opstarten van raylib en uitleg er over gekregen.
+1e blok: 
 <br> 
-2e blok: Raylib klaar gezet en opzoek naar een game idee.
+2e blok: 
 <br>
-3e blok: Genoteerd waar ik in wil gaan werken + logboek template gemaakt in markdown.
+3e blok: 
 
 ---
 
-**Dinsdag** 
+**Dinsdag**
+1e blok:
 <br> 
-2e blok: Tussen raylib examples gekeken voor ideeën.
+2e blok: 
 <br>
 3e blok: FFL.
-
+<br>
+4e blok:
 ---
 
 
 **Woensdag**
-<br>
-1e blok: Video over pointers gekeken en nog verder gekeken voor een spel idee waar ik nog steeds niet overuit ben. <br> 
-https://www.youtube.com/watch?v=2ybLD6_2gKM&t=32s&ab_channel=LowLevelLearning
 <br> 
-2e blok: Portfolio bijgewerkt, nieuw font toegevoegd en CV er in gezet.
+2e blok: 
 <br>
-3e blok: Logo voor portfolio gemaakt tijdens digital design.
+3e blok: Portfolio lijst gemaakt en wireframe gemaakt.
 
 ---
 
 
-**Donderdag** (Ziek)
-
+**Donderdag** 
+1e blok: 
+<br> 
+2e blok: Eindelijk de log image in visueel op scherm gekregen.
+<br>
+3e blok: 
 
 ---
 
 
 **Vrijdag**
 <br>
-1e blok: Basic pong tutorial gevolgd in raylib. https://www.youtube.com/watch?v=VLJlTaFvHo4&ab_channel=ProgrammingWithNick <br> Door pong te volgen ga je direct over dingen die vaak in andere spellen terug komen (Movement, controls, collision, scoring en AI).
+1e blok: 
 <br> 
-2e blok: Verder met de tutorial.
+2e blok: 
 <br>
-3e blok: Pong tutorial afgerond en logboek bijgewerkt.
+3e blok: 
 
 **Conclussie**
 <br>
-Ik heb nog geen idee wat voor spel ik wil gaan maken in raylib C++, dus heb ik besloten om eerst raylib te leren door de documentatie door te lezen en tutorials te volgen. 
 
-Voor de aankomende week hoop ik een spel idee te hebben en daar een begin in te kunnen maken.
 

@@ -13,7 +13,7 @@ public:
 	void Rotate();
 
 private:
-	Texture2D diego;
+	Texture2D image;
 	
 };
 

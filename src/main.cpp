@@ -13,6 +13,7 @@ int main()
     const int screen_height = 800;
     InitWindow(screen_width, screen_height, "Knife Hit");
     SetTargetFPS(60);
+    
     Log log; 
 
     while (!WindowShouldClose())
