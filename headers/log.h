@@ -8,12 +8,15 @@ class Log: public Entity
 public:
 	Log();
 	virtual ~Log();
+	virtual void Update(float deltaTime);
 
-	void Draw(float deltaTime);
+	void Draw();
 	void Rotate();
+	
 
 private:
-	Texture2D image;
+	Texture2D imageLog;
+	float deltaTime;
 	
 };
 

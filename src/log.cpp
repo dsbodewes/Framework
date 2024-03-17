@@ -3,18 +3,24 @@
 
 Log::Log() : Entity()
 {
-    image = LoadTexture("../assets/log.png");
-    position.x = GetScreenWidth() / 2 - image.width / 2;
-    position.y = GetScreenHeight() / 2 - image.height / 2;
+    imageLog = LoadTexture("../assets/log.png");
+    position.x = GetScreenWidth() / 2 - imageLog.width / 2;
+    position.y = GetScreenHeight() / 2 - imageLog.height / 2;
 
 }
 
 Log::~Log()
 {
-    UnloadTexture(image);
+    UnloadTexture(imageLog);
 }
 
-void Log::Draw(float deltaTime)
+void Log::Draw()
 {
-    DrawTexture(image, position.x, position.y, WHITE);
+    DrawTexture(imageLog, position.x, position.y, WHITE);
+}
+
+void Log::Update(float deltaTime)
+{
+    Draw();
+    ImageRotate(imageLog, 0 + 20);
 }

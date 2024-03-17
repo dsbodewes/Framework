@@ -12,8 +12,10 @@ class Myscene: public Scene
 public:
 	Myscene();
 	virtual ~Myscene();
-
+	virtual void Update(float deltaTime);
 private:
+	Log* log;
+	
 
 };
 

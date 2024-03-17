@@ -1,31 +1,29 @@
 #include <iostream>
 #include "raylib.h"
-#include "log.h"
+#include "core.h"
+#include "myscene.h"
 
 using namespace std;
 
-
 int main()
 {
-    Color background = {14, 82, 77};
-    cout << "Start Game" << endl;
-    const int screen_width = 1280;
-    const int screen_height = 800;
-    InitWindow(screen_width, screen_height, "Knife Hit");
-    SetTargetFPS(60);
     
-    Log log; 
+    // cout << "Start Game" << endl;
+    // const int screen_width = 1280;
+    // const int screen_height = 800;
+    // SetTargetFPS(60);
+    
+    Core* core = new Core();
+    Myscene* myscene = new Myscene();
 
-    while (!WindowShouldClose())
+    while (myscene->isActive())
     {
-        BeginDrawing();
-        ClearBackground(background);
-        DrawText("Knife Hit", 10, 10, 20, LIGHTGRAY);
-        log.Draw(0);
-        EndDrawing();
+        core->Run(myscene);
     }
     
-    CloseWindow();
+    delete myscene;
+    delete core;
+    
     return 0;
 }
 

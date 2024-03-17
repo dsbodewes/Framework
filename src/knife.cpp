@@ -9,3 +9,8 @@ Knife::~Knife()
 {
     
 }
+
+void Knife::Update(float deltaTime)
+{
+	// Draw();
+}
