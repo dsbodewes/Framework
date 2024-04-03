@@ -14,8 +14,7 @@ public:
 	void ShootForward();
 
 private:
-	Texture2D image;
-	float deltaTime;
+	Texture2D imageKnife;
 	
 };
 

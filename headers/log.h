@@ -13,10 +13,11 @@ public:
 	void Draw();
 	void Rotate();
 	
-
 private:
 	Texture2D imageLog;
-	float deltaTime;
+	Rectangle sourceRec;
+	Rectangle destRec;
+	int rotation;
 	
 };
 

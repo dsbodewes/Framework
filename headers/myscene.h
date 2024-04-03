@@ -14,9 +14,8 @@ public:
 	virtual ~Myscene();
 	virtual void Update(float deltaTime);
 private:
-	Log* log;
-	
-
+	Log *log;
+	Knife *knife;
 };
 
 #endif 

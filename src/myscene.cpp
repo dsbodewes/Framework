@@ -8,7 +8,8 @@ Myscene::Myscene() : Scene()
     camera.offset = Vector2();
     Config::configure();
 
-    log = new Log();
+    knife = new Knife();
+    log = new Log(); 
 }
 
 Myscene::~Myscene()
@@ -19,6 +20,7 @@ Myscene::~Myscene()
 void Myscene::Update(float deltaTime)
 {
     log->Update(deltaTime);
-    
+    knife->Update(deltaTime);
+
 }
 

@@ -11,9 +11,10 @@ public:
 	virtual ~Entity();
 
 	Vector2 position;
-	
-private:
+	Vector2 origin;
 
+private:
+	protected: Vector2 scale;
 
 };
 
