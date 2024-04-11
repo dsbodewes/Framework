@@ -11,11 +11,15 @@ public:
 	virtual void Update(float deltaTime);
 
 	void Draw();
-	void ShootForward();
+	void HandleInput();
 
 private:
+	float velocity = 0.0f;
+	float acceleration = 10.0f;
+
+	bool isSpacebarPressed = false;
+
 	Texture2D imageKnife;
-	
 };
 
 #endif 

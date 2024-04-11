@@ -4,7 +4,7 @@
 Log::Log() : Entity()
 {
     imageLog = LoadTexture("../assets/log.png");
-
+    
     position.x = GetScreenWidth() / 2 - imageLog.width / 2;
     position.y = GetScreenHeight() / 2 - imageLog.height / 2 - 75;
 
@@ -14,10 +14,10 @@ Log::Log() : Entity()
     // Source rectangle (part of the texture to use for drawing) 
     // Destination rectangle (screen rectangle where drawing part of texture)
     sourceRec = { 0.0f, 0.0f, (float)frameWidth, (float)frameHeight };
-    destRec = { GetScreenWidth()/2.0f, GetScreenHeight()/2.0f, frameWidth*2.0f, frameHeight*2.0f };
+    destRec = { GetScreenWidth()/2.0f, GetScreenHeight()/2.0f, (float)frameWidth, (float)frameHeight };
     
     // Origin of the texture (rotation/scale point), it's relative to destination rectangle size
-    origin = { (float)frameWidth, (float)frameHeight };
+    origin = { (float)frameWidth/2.0f, (float)frameHeight/2.0f };
 
     rotation = 0;
 }
@@ -44,3 +44,4 @@ void Log::Update(float deltaTime)
     Draw();
     Rotate();
 }
+

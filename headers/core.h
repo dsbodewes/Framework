@@ -10,9 +10,10 @@ public:
 	Core();
 	virtual ~Core();
 	void Run(Scene* scene);
+	
 private:
-	/* add your private declarations */
 	float deltaTime;
+
 };
 
-#endif /* CORE_H */
+#endif 

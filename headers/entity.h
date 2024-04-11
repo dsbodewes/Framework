@@ -14,8 +14,11 @@ public:
 	Vector2 origin;
 
 private:
-	protected: Vector2 scale;
-
+	
+	
+protected:
+	Rectangle sourceRec;
+	Rectangle destRec;
 };
 
 #endif 

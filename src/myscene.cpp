@@ -19,8 +19,8 @@ Myscene::~Myscene()
 
 void Myscene::Update(float deltaTime)
 {
-    log->Update(deltaTime);
     knife->Update(deltaTime);
-
+    log->Update(deltaTime);
+    
 }
 

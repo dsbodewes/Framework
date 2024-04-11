@@ -15,10 +15,7 @@ public:
 	
 private:
 	Texture2D imageLog;
-	Rectangle sourceRec;
-	Rectangle destRec;
 	int rotation;
-	
 };
 
 #endif 
