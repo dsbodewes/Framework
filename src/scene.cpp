@@ -1,6 +1,7 @@
 #include "scene.h"
 #include "config.h"
 
+
 Scene::Scene() : Entity()
 {
     background = {14, 82, 77};
@@ -11,6 +12,7 @@ Scene::~Scene()
 {
     CloseWindow();
 }
+
 
 void Scene::Tick(float deltaTime)
 {

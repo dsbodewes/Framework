@@ -1,6 +1,4 @@
 #include "myscene.h"
-#include "knife.h"
-#include "log.h"
 
 Myscene::Myscene() : Scene()
 {
@@ -15,6 +13,15 @@ Myscene::Myscene() : Scene()
 Myscene::~Myscene()
 {
     
+}
+
+void Myscene::CheckCollision()
+{
+    // Check collision between knife and log
+    if (CheckCollisionCircleRec(knife->GetCollisionCircle(), log->GetCollisionRectangle()))
+    {
+        std::cout << "Collision detected" << std::endl;
+    }
 }
 
 void Myscene::Update(float deltaTime)

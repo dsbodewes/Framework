@@ -13,6 +13,8 @@ public:
 	Myscene();
 	virtual ~Myscene();
 	virtual void Update(float deltaTime);
+	void CheckCollision();
+	
 private:
 	Log *log;
 	Knife *knife;

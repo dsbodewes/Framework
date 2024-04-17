@@ -12,6 +12,7 @@ public:
 
 	Vector2 position;
 	Vector2 origin;
+	Vector2 scale;
 
 private:
 	

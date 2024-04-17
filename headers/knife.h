@@ -14,10 +14,10 @@ public:
 	void HandleInput();
 
 private:
-	float velocity = 0.0f;
-	float acceleration = 10.0f;
+	float velocity; 
+	float acceleration; 
 
-	bool isSpacebarPressed = false;
+	bool isSpacebarPressed; 
 
 	Texture2D imageKnife;
 };
