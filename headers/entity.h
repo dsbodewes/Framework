@@ -14,6 +14,9 @@ public:
 	Vector2 origin;
 	Vector2 scale;
 
+	float velocity;
+	float acceleration; 
+
 private:
 	
 	

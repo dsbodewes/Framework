@@ -13,7 +13,6 @@ public:
 	
 private:
 	float deltaTime;
-
 };
 
 #endif 

@@ -29,7 +29,8 @@ Knife::~Knife()
 }
 
 void Knife::Draw()
-{	DrawRectangle(position.x + 12.5, position.y - 25, scale.x * 21, scale.y, RED);
+{	
+	DrawRectangle(position.x + 12.5, position.y - 25, scale.x * 21, scale.y, RED);
 	DrawTexturePro(imageKnife, sourceRec, destRec, origin, 0, WHITE);
 }
 
@@ -37,11 +38,13 @@ void Knife::HandleInput()
 { 
 	if (!isSpacebarPressed && IsKeyPressed(KEY_SPACE)) 
 	{
-		velocity -= 900.0f;
+		velocity -= 1200.0f;
 		isSpacebarPressed = true;
 		std::cout << "Spacebar pressed" << std::endl;
     }
 }
+
+
 void Knife::Update(float deltaTime)
 {
 	destRec.y += velocity * deltaTime; // Update the y position of destRec based on velocity

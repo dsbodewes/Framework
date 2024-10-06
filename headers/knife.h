@@ -13,12 +13,9 @@ public:
 	void Draw();
 	void HandleInput();
 
-private:
-	float velocity; 
-	float acceleration; 
-
+private: 
 	bool isSpacebarPressed; 
-
+	
 	Texture2D imageKnife;
 };
 
